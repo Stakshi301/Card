@@ -1,0 +1,98 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+background-color: #E5EAF0;
+}
+
+.main{
+    height: 68%;
+    width: 28%;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+border-radius: 10px;
+    background-color: #FAFAF9;
+}
+
+/* .box{
+    height: 50%;
+    width: 40%;
+   margin: 90px;
+    background-color: yellowgreen;
+} */
+
+.img img{
+    height: 90%;
+    width:96%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 25px;
+  }
+
+  .pera button{
+    margin-left: 25px;
+    height: 22px;
+    width: 65px;
+    border-radius: 50px;
+    border: none;
+    color: #883AE1;
+    background-color: #E6D6FC;
+  }
+
+ #pera1{
+color: #0a0a0b;
+font-weight: 400;
+font-size: 18px;
+font-family: "Sora", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+padding-top: 10px;
+margin-left: 25px;
+ }
+
+ #pera2 {
+    width: 88%;
+    padding-top: 5px;
+    margin-left: 25px;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+color: #6C727F;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+  font-style: normal;
+}
+
+hr {
+    margin-top: 20px;
+   
+  }
+
+.footer{
+    padding-top: 25px;
+    margin-left: 25px;
+    color: #6C727F;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Sora", sans-serif;
+}
+
+
+@media only screen and (max-width: 650px){
+    .main{
+        height: 85%;
+        width: 50%;
+        display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
+}
